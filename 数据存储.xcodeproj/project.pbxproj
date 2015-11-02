@@ -15,6 +15,10 @@
 		DE0E0F491BE7064D008D4896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0E0F471BE7064D008D4896 /* LaunchScreen.storyboard */; };
 		DE0E0F541BE7064D008D4896 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E0F531BE7064D008D4896 /* ____Tests.m */; };
 		DE0E0F5F1BE7064D008D4896 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E0F5E1BE7064D008D4896 /* ____UITests.m */; };
+		DE0E0F6E1BE70669008D4896 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E0F6D1BE70669008D4896 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		DE0E0F721BE71291008D4896 /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E0F711BE71291008D4896 /* FastCoder.m */; settings = {ASSET_TAGS = (); }; };
+		DE0E0F781BE730C5008D4896 /* DataHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E0F771BE730C5008D4896 /* DataHandle.m */; settings = {ASSET_TAGS = (); }; };
+		DE0E0F7B1BE73311008D4896 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E0F7A1BE73311008D4896 /* Teacher.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		DE0E0F5A1BE7064D008D4896 /* 数据存储UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数据存储UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0E0F5E1BE7064D008D4896 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		DE0E0F601BE7064D008D4896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0E0F6C1BE70669008D4896 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DE0E0F6D1BE70669008D4896 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DE0E0F6F1BE70774008D4896 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DE0E0F701BE71291008D4896 /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastCoder.h; sourceTree = "<group>"; };
+		DE0E0F711BE71291008D4896 /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
+		DE0E0F761BE730C5008D4896 /* DataHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandle.h; sourceTree = "<group>"; };
+		DE0E0F771BE730C5008D4896 /* DataHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandle.m; sourceTree = "<group>"; };
+		DE0E0F791BE73311008D4896 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		DE0E0F7A1BE73311008D4896 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +123,15 @@
 				DE0E0F471BE7064D008D4896 /* LaunchScreen.storyboard */,
 				DE0E0F4A1BE7064D008D4896 /* Info.plist */,
 				DE0E0F391BE7064D008D4896 /* Supporting Files */,
+				DE0E0F6C1BE70669008D4896 /* Person.h */,
+				DE0E0F6D1BE70669008D4896 /* Person.m */,
+				DE0E0F791BE73311008D4896 /* Teacher.h */,
+				DE0E0F7A1BE73311008D4896 /* Teacher.m */,
+				DE0E0F761BE730C5008D4896 /* DataHandle.h */,
+				DE0E0F771BE730C5008D4896 /* DataHandle.m */,
+				DE0E0F701BE71291008D4896 /* FastCoder.h */,
+				DE0E0F711BE71291008D4896 /* FastCoder.m */,
+				DE0E0F6F1BE70774008D4896 /* Header.h */,
 			);
 			path = "数据存储";
 			sourceTree = "<group>";
@@ -271,7 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0E0F411BE7064D008D4896 /* ViewController.m in Sources */,
+				DE0E0F7B1BE73311008D4896 /* Teacher.m in Sources */,
 				DE0E0F3E1BE7064D008D4896 /* AppDelegate.m in Sources */,
+				DE0E0F6E1BE70669008D4896 /* Person.m in Sources */,
+				DE0E0F721BE71291008D4896 /* FastCoder.m in Sources */,
+				DE0E0F781BE730C5008D4896 /* DataHandle.m in Sources */,
 				DE0E0F3B1BE7064D008D4896 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/xcgdb/Documents/智迈文件/业余练习/加密/数据存储/数据存储/Header.h";
 				INFOPLIST_FILE = "数据存储/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xinchuangoc.----";
@@ -422,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/xcgdb/Documents/智迈文件/业余练习/加密/数据存储/数据存储/Header.h";
 				INFOPLIST_FILE = "数据存储/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xinchuangoc.----";
