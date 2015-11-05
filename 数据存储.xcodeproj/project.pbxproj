@@ -19,6 +19,7 @@
 		DE0E0F721BE71291008D4896 /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E0F711BE71291008D4896 /* FastCoder.m */; settings = {ASSET_TAGS = (); }; };
 		DE0E0F781BE730C5008D4896 /* DataHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E0F771BE730C5008D4896 /* DataHandle.m */; settings = {ASSET_TAGS = (); }; };
 		DE0E0F7B1BE73311008D4896 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E0F7A1BE73311008D4896 /* Teacher.m */; settings = {ASSET_TAGS = (); }; };
+		DE3EB7511BEB4AEE007EB3C7 /* UpdataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3EB7501BEB4AEE007EB3C7 /* UpdataInfo.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		DE0E0F771BE730C5008D4896 /* DataHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandle.m; sourceTree = "<group>"; };
 		DE0E0F791BE73311008D4896 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
 		DE0E0F7A1BE73311008D4896 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		DE3EB74F1BEB4AEE007EB3C7 /* UpdataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdataInfo.h; sourceTree = "<group>"; };
+		DE3EB7501BEB4AEE007EB3C7 /* UpdataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdataInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				DE0E0F3D1BE7064D008D4896 /* AppDelegate.m */,
 				DE0E0F3F1BE7064D008D4896 /* ViewController.h */,
 				DE0E0F401BE7064D008D4896 /* ViewController.m */,
+				DE3EB74F1BEB4AEE007EB3C7 /* UpdataInfo.h */,
+				DE3EB7501BEB4AEE007EB3C7 /* UpdataInfo.m */,
 				DE0E0F421BE7064D008D4896 /* Main.storyboard */,
 				DE0E0F451BE7064D008D4896 /* Assets.xcassets */,
 				DE0E0F471BE7064D008D4896 /* LaunchScreen.storyboard */,
@@ -294,6 +299,7 @@
 			files = (
 				DE0E0F411BE7064D008D4896 /* ViewController.m in Sources */,
 				DE0E0F7B1BE73311008D4896 /* Teacher.m in Sources */,
+				DE3EB7511BEB4AEE007EB3C7 /* UpdataInfo.m in Sources */,
 				DE0E0F3E1BE7064D008D4896 /* AppDelegate.m in Sources */,
 				DE0E0F6E1BE70669008D4896 /* Person.m in Sources */,
 				DE0E0F721BE71291008D4896 /* FastCoder.m in Sources */,
@@ -524,6 +530,7 @@
 				DE0E0F651BE7064D008D4896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE0E0F661BE7064D008D4896 /* Build configuration list for PBXNativeTarget "数据存储Tests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +539,7 @@
 				DE0E0F681BE7064D008D4896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE0E0F691BE7064D008D4896 /* Build configuration list for PBXNativeTarget "数据存储UITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +548,7 @@
 				DE0E0F6B1BE7064D008D4896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
